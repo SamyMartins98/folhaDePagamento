@@ -46,16 +46,16 @@
           <form class="col s12" action="folhaDePagamento-api/index.php" method="POST">
             <div class="row">
               <div class="input-field col s6">
-                <input id="nome" type="text" class="validate">
-                <label for="nome">Nome completo</label>
+                <input id="nome" name="nome" type="text" class="validate">
+                <label>Nome completo</label>
               </div>
               <div class="input-field col s6">
-                <input id="salariob" type="text" class="validate">
-                <label for="salariob">Salário bruto</label>
+                <input id="salariob" name="salariob" type="number" class="validate">
+                <label>Salário bruto</label>
               </div>
               <div class="input-field col s6">
-                <input id="dependentes" type="text" class="validate">
-                <label for="dependentes">Número de dependetes</label>
+                <input id="dependentes" name="dependentes" type="text" class="validate">
+                <label>Número de dependetes</label>
               </div>
             </div>
             <center><button class="btn waves-effect waves-light blue lighten-2" type="submit" name="action">Enviar
